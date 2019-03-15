@@ -32,6 +32,7 @@ PyHamcrest==1.9.0
 pyOpenSSL==19.0.0
 pytz==2018.9
 queuelib==1.5.0
+redis==3.2.1
 Scrapy==1.6.0
 scrapy-djangoitem==1.1.1
 scrapy-splash==0.7.2

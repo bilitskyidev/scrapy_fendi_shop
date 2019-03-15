@@ -23,6 +23,49 @@
   },
   {
     "title": "T-SHIRT",
+    "price": "$590.00",
+    "image": [
+      "https://images.www.fendi.com/images/hdf/hcd/8901707137054/FY0894A6ZDF0QA0_01_large#product-medium",
+      "https://images.www.fendi.com/images/h1b/h89/8901689966622/FY0894A6ZDF0QA0_02_large#product-medium",
+      "https://images.www.fendi.com/images/hb1/h54/8901745541150/FY0894A6ZDF0QA0_03_large#product-medium"
+    ],
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL",
+      "XXS"
+    ],
+    "description": "Short-sleeved crew-neck T-shirt. Made with white cotton jersey. The Bag Bugs eyes appliqués are customized with the Fashion Show motif inspired by playing cards.",
+    "color": "White"
+  },
+  {
+    "title": "T-SHIRT",
+    "price": "$550.00",
+    "image": [
+      "https://images.www.fendi.com/images/h71/h86/8909788905502/FY0894A6ZGF0QA1_01_large#product-medium",
+      "https://images.www.fendi.com/images/h77/h13/8909803946014/FY0894A6ZGF0QA1_02_large#product-medium",
+      "https://images.www.fendi.com/images/h25/hb6/8909783007262/FY0894A6ZGF0QA1_03_large#product-medium",
+      "https://images.www.fendi.com/images/h2a/h06/8908658966558/FY0894A6ZGF0QA1_99_large#product-medium"
+    ],
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL",
+      "XXS"
+    ],
+    "description": "Short-sleeved crew-neck T-shirt. Made with black cotton jersey. Heat-sealed appliqués in the shape of Bag Bugs eyes with upturned F.",
+    "color": "Black"
+  },
+  {
+    "title": "T-SHIRT",
     "price": "$550.00",
     "image": [
       "https://images.www.fendi.com/images/hc3/hb4/8909770489886/FY0894A6ZGF0QA0_01_large#product-medium",
@@ -227,32 +270,6 @@
     "color": "Multicolor"
   },
   {
-    "title": "CLUTCH",
-    "price": "$950.00",
-    "image": [
-      "https://images.www.fendi.com/images/hc4/h9d/8909561724958/7VA433A72KF0P0N_01_large#product-medium",
-      "https://images.www.fendi.com/images/h05/hb2/8909477314590/7VA433A72KF0P0N_02_large#product-medium",
-      "https://images.www.fendi.com/images/hf8/h38/8909455196190/7VA433A72KF0P0N_03_large#product-medium",
-      "https://images.www.fendi.com/images/h9a/hef/8909504380958/7VA433A72KF0P0N_04_large#product-medium",
-      "https://images.www.fendi.com/images/hd7/hda/8908588154910/7VA433A72KF0P0N_99_large#product-medium"
-    ],
-    "size": null,
-    "description": "Pochette with zip closure. Flat inside pocket. Made of smooth black calfskin. The screen-printed appliqués in the shape of Bag Bugs eyes are customized with a reversed F. Palladium-finish metalware.",
-    "color": "Black"
-  },
-  {
-    "title": "WALLET",
-    "price": "$490.00",
-    "image": [
-      "https://images.www.fendi.com/images/h9a/h89/8901800165406/7M0169A72KF0P0N_01_large#product-medium",
-      "https://images.www.fendi.com/images/h54/h4a/8901802197022/7M0169A72KF0P0N_02_large#product-medium",
-      "https://images.www.fendi.com/images/h65/h61/8901805801502/7M0169A72KF0P0N_03_large#product-medium"
-    ],
-    "size": null,
-    "description": "Wallet with eight interior card slots and two compartments for bills. Made of smooth black calfskin. Red leather interior. The screen-printed appliqués in the shape of Bag Bugs eyes are customized with a reversed F.",
-    "color": "Black"
-  },
-  {
     "title": "BELT",
     "price": "$490.00",
     "image": [
@@ -285,7 +302,7 @@
     ],
     "size": null,
     "description": "FendiFiend sunglasses characterized by their contemporary cat-eye shape. This style is made of metal with a gold finish and features a unique “UFO” construction, a red metallic wire that frames the lenses, creating a retro-futuristic geometric effect. Triangular temples customized with Fendi logo engraving and red temple tips. Adjustable nosepads. Red lenses.",
-    "color": "gold and red"
+    "color": "Gold and red"
   },
   {
     "title": "T-SHIRT",
@@ -333,7 +350,7 @@
     ],
     "size": null,
     "description": "FendiFiend sunglasses characterized by their contemporary cat-eye shape. This style is made of black metal and features a unique “UFO” construction, a metallic wire that frames the lenses, creating a retro-futuristic geometric effect. Triangular temples customized with Fendi logo engraving and tone-on-tone temple tips. Adjustable nosepads. Gray lenses.",
-    "color": "black"
+    "color": "Black"
   },
   {
     "title": "WRIST STRAP",
@@ -656,46 +673,29 @@
     "color": "Black"
   },
   {
-    "title": "T-SHIRT",
-    "price": "$590.00",
+    "title": "CLUTCH",
+    "price": "$950.00",
     "image": [
-      "https://images.www.fendi.com/images/hdf/hcd/8901707137054/FY0894A6ZDF0QA0_01_large#product-medium",
-      "https://images.www.fendi.com/images/h1b/h89/8901689966622/FY0894A6ZDF0QA0_02_large#product-medium",
-      "https://images.www.fendi.com/images/hb1/h54/8901745541150/FY0894A6ZDF0QA0_03_large#product-medium"
+      "https://images.www.fendi.com/images/hc4/h9d/8909561724958/7VA433A72KF0P0N_01_large#product-medium",
+      "https://images.www.fendi.com/images/h05/hb2/8909477314590/7VA433A72KF0P0N_02_large#product-medium",
+      "https://images.www.fendi.com/images/hf8/h38/8909455196190/7VA433A72KF0P0N_03_large#product-medium",
+      "https://images.www.fendi.com/images/h9a/hef/8909504380958/7VA433A72KF0P0N_04_large#product-medium",
+      "https://images.www.fendi.com/images/hd7/hda/8908588154910/7VA433A72KF0P0N_99_large#product-medium"
     ],
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL",
-      "XXXL",
-      "XXS"
-    ],
-    "description": "Short-sleeved crew-neck T-shirt. Made with white cotton jersey. The Bag Bugs eyes appliqués are customized with the Fashion Show motif inspired by playing cards.",
-    "color": "White"
+    "size": null,
+    "description": "Pochette with zip closure. Flat inside pocket. Made of smooth black calfskin. The screen-printed appliqués in the shape of Bag Bugs eyes are customized with a reversed F. Palladium-finish metalware.",
+    "color": "Black"
   },
   {
-    "title": "T-SHIRT",
-    "price": "$550.00",
+    "title": "WALLET",
+    "price": "$490.00",
     "image": [
-      "https://images.www.fendi.com/images/h71/h86/8909788905502/FY0894A6ZGF0QA1_01_large#product-medium",
-      "https://images.www.fendi.com/images/h77/h13/8909803946014/FY0894A6ZGF0QA1_02_large#product-medium",
-      "https://images.www.fendi.com/images/h25/hb6/8909783007262/FY0894A6ZGF0QA1_03_large#product-medium",
-      "https://images.www.fendi.com/images/h2a/h06/8908658966558/FY0894A6ZGF0QA1_99_large#product-medium"
+      "https://images.www.fendi.com/images/h9a/h89/8901800165406/7M0169A72KF0P0N_01_large#product-medium",
+      "https://images.www.fendi.com/images/h54/h4a/8901802197022/7M0169A72KF0P0N_02_large#product-medium",
+      "https://images.www.fendi.com/images/h65/h61/8901805801502/7M0169A72KF0P0N_03_large#product-medium"
     ],
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL",
-      "XXXL",
-      "XXS"
-    ],
-    "description": "Short-sleeved crew-neck T-shirt. Made with black cotton jersey. Heat-sealed appliqués in the shape of Bag Bugs eyes with upturned F.",
+    "size": null,
+    "description": "Wallet with eight interior card slots and two compartments for bills. Made of smooth black calfskin. Red leather interior. The screen-printed appliqués in the shape of Bag Bugs eyes are customized with a reversed F.",
     "color": "Black"
   },
   {
@@ -1763,7 +1763,7 @@
     ],
     "size": null,
     "description": "FendiFiend sunglasses characterized by their contemporary cat-eye shape. This style is made of metal with a gold finish and features a unique “UFO” construction, a brown metallic wire that frames the lenses, creating a retro-futuristic geometric effect. Triangular temples customized with engraved Fendi logo and brown temple tips. Adjustable nosepads. Brown lenses.",
-    "color": "gold and brown"
+    "color": "Gold and brown"
   },
   {
     "title": "PEEKABOO REGULAR",
