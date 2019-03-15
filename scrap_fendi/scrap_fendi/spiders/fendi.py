@@ -1,4 +1,3 @@
-
 import scrapy
 from ..items import ScrapFendiItem
 
@@ -71,7 +70,6 @@ class FendiSpider(scrapy.Spider):
         else:
             description = response.xpath(
                 '//meta[@property="og:description"]/@content').extract_first().split()
-            print(description)
             if description and 'sunglasses' not in description:
                 if description[1] == 'and':
                     color = ' '.join(description[:3])
@@ -83,4 +81,4 @@ class FendiSpider(scrapy.Spider):
                 color = ' '.join(description[:-1])
             else:
                 color = description[-2]
-        return color
+        return color.capitalize()
