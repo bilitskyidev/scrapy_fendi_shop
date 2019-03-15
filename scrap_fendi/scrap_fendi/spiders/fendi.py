@@ -8,20 +8,63 @@ class FendiSpider(scrapy.Spider):
     start_urls = [
         'https://www.fendi.com/us/man/new-arrivals?q=:relevance&page=1&preload=true']
     custom_settings = {
-    'DOWNLOAD_DELAY':2,
+        'DOWNLOAD_DELAY': 2,
     }
 
     def parse(self, response):
-        posts_link = response.xpath("//div[contains(@class, 'inner')]/figure/a/@href").extract()
+        posts_link = response.xpath(
+            "//div[contains(@class, 'inner')]/figure/a/@href").extract()
         for i in posts_link:
             yield scrapy.Request('https://www.fendi.com{}'.format(i), callback=self.parse_post)
 
     def parse_post(self, response):
         fields_item = ScrapFendiItem()
-        fields_item['title'] = response.xpath("//div[contains(@class, 'product-description')]/h1/text()").extract_first()
-        fields_item['price'] = response.xpath("//div[contains(@class, 'prices js-price-update')]/span/text()").extract_first().strip()            
-        fields_item['image'] = response.xpath("//div[contains(@class, 'inner')]/a/img/@src").extract()
-        fields_item['size'] = response.xpath("//select[contains(@id, 'select-size-sidebar')]/option/@data-qualifier-value").extract()
-        fields_item['description'] = response.xpath("//p[contains(@itemprop, 'description')]/text()").extract_first()
-        fields_item['color'] = response.xpath('//meta[@itemprop="color"]/@content').extract_first()
+        fields_item['title'] = self._get_title(response)
+        fields_item['price'] = self._get_price(response)
+        fields_item['image'] = self._get_image(response)
+        fields_item['size'] = self._get_size(response)
+        fields_item['description'] = self._get_description(response)
+        fields_item['color'] = self._get_color(response)
         return fields_item
+
+    @classmethod
+    def _get_title(cls, response):
+        title = response.xpath(
+            "//div[contains(@class, 'product-description')]/h1/text()").extract_first()
+        if title:
+            return title
+
+    @classmethod
+    def _get_price(cls, response):
+        price = response.xpath(
+            "//div[contains(@class, 'prices js-price-update')]/span/text()").extract_first().strip()
+        if price:
+            return price
+
+    @classmethod
+    def _get_image(cls, response):
+        image = response.xpath(
+            "//div[contains(@class, 'inner')]/a/img/@src").extract()
+        if image:
+            return image
+
+    @classmethod
+    def _get_size(cls, response):
+        size = response.xpath(
+            "//select[contains(@id, 'select-size-sidebar')]/option/@data-qualifier-value").extract()
+        if size:
+            return size
+
+    @classmethod
+    def _get_description(cls, response):
+        description = response.xpath(
+            "//p[contains(@itemprop, 'description')]/text()").extract_first()
+        if description:
+            return description
+
+    @classmethod
+    def _get_color(cls, response):
+        color = response.xpath(
+            '//meta[@itemprop="color"]/@content').extract_first()
+        if color:
+            return color
