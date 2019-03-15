@@ -22,6 +22,49 @@
     "color": "Brown"
   },
   {
+    "title": "T-SHIRT",
+    "price": "$550.00",
+    "image": [
+      "https://images.www.fendi.com/images/hc3/hb4/8909770489886/FY0894A6ZGF0QA0_01_large#product-medium",
+      "https://images.www.fendi.com/images/h81/h4e/8909771374622/FY0894A6ZGF0QA0_02_large#product-medium",
+      "https://images.www.fendi.com/images/h70/hd6/8909805486110/FY0894A6ZGF0QA0_03_large#product-medium",
+      "https://images.www.fendi.com/images/hd6/h8e/8908652544030/FY0894A6ZGF0QA0_99_large#product-medium"
+    ],
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL",
+      "XXS"
+    ],
+    "description": "Short-sleeved crew-neck T-shirt. Made with white cotton jersey. Bag Bugs eye shaped appliqués.",
+    "color": "White"
+  },
+  {
+    "title": "SWEATSHIRT",
+    "price": "$770.00",
+    "image": [
+      "https://images.www.fendi.com/images/h81/hcd/8901926748190/FAF535A78LF0GME_01_large#product-medium",
+      "https://images.www.fendi.com/images/h67/hb7/8901896405022/FAF535A78LF0GME_02_large#product-medium",
+      "https://images.www.fendi.com/images/h0f/h5a/8901912854558/FAF535A78LF0GME_03_large#product-medium"
+    ],
+    "size": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL",
+      "XXS"
+    ],
+    "description": "Long-sleeved sweatshirt with crew neck. Made of black cotton jersey. Customized with heat-sealed micro-mesh FF appliqué in white.",
+    "color": "Black"
+  },
+  {
     "title": "SWEATSHIRT",
     "price": "$770.00",
     "image": [
@@ -92,7 +135,7 @@
       "https://images.www.fendi.com/images/hc9/hc0/8901803507742/7M0169A5K4F0GXN_02_large#product-medium",
       "https://images.www.fendi.com/images/he8/h64/8901807439902/7M0169A5K4F0GXN_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Wallet with eight interior card slots and two compartments for bills. Made of glazed jacquard fabric with black FF motif. Decorated with Fendi Stamp appliqué in leather.",
     "color": "Black"
   },
@@ -104,7 +147,7 @@
       "https://images.www.fendi.com/images/h53/h0c/8901819596830/7M0262A5K4F0GXN_02_large#product-medium",
       "https://images.www.fendi.com/images/h0c/h56/8901823201310/7M0262A5K4F0GXN_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Vertical wallet with six interior card slots, flat pockets and a compartment for bills. Made of glazed jacquard fabric with black FF motif. Decorated with Fendi Stamp appliqué in leather.",
     "color": "Black"
   },
@@ -116,7 +159,7 @@
       "https://images.www.fendi.com/images/ha7/hc1/8901825822750/7N0078A5K4F0GXN_02_large#product-medium",
       "https://images.www.fendi.com/images/h2c/h06/8901830737950/7N0078A5K4F0GXN_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Slim zippered pouch. Made of glazed jacquard fabric with black FF motif. Decorated with Fendi Stamp appliqué in leather. Palladium-finish metalware.",
     "color": "Black"
   },
@@ -128,7 +171,7 @@
       "https://images.www.fendi.com/images/hab/h2f/8907831541790/7M0210A5K4F051U_02_large#product-medium",
       "https://images.www.fendi.com/images/h69/h9b/8907964252190/7M0210A5K4F051U_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Wallet with zipper. Organized into three gusseted compartments with eight card slots and a zippered pocket. Made of glazed fabric with red FF motif. Fendi Stamp appliqué in black leather.",
     "color": "Red"
   },
@@ -140,7 +183,7 @@
       "https://images.www.fendi.com/images/hff/hfa/8907965235230/7M0169A5K4F051U_02_large#product-medium",
       "https://images.www.fendi.com/images/h2e/h25/8907831869470/7M0169A5K4F051U_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Wallet with eight interior card slots and two compartments for bills. Made of glazed jacquard fabric with red FF motif. Decorated with Fendi Stamp appliqué in leather.",
     "color": "Red"
   },
@@ -152,9 +195,84 @@
       "https://images.www.fendi.com/images/he5/ha5/8907964579870/7M0262A5K4F051U_02_large#product-medium",
       "https://images.www.fendi.com/images/h3a/h3a/8907831214110/7M0262A5K4F051U_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Bi-fold card holder with 6 slots, a bill compartment and two flat pockets. Made of glazed fabric with red FF motif. Fendi Stamp appliqué in black leather.",
     "color": "Red"
+  },
+  {
+    "title": "POUCH",
+    "price": "$890.00",
+    "image": [
+      "https://images.www.fendi.com/images/h68/h29/8909433667614/7N0078A6K9F164G_01_large#product-medium",
+      "https://images.www.fendi.com/images/hf7/hb1/8909419675678/7N0078A6K9F164G_02_large#product-medium",
+      "https://images.www.fendi.com/images/h3a/ha8/8909440155678/7N0078A6K9F164G_03_large#product-medium",
+      "https://images.www.fendi.com/images/h41/h4a/8908581404702/7N0078A6K9F164G_99_large#product-medium"
+    ],
+    "size": null,
+    "description": "Slim zippered pouch. Made of black Roman leather. Contrasting inlay with Fashion Show JOKARL print inspired by playing cards. Palladium-finish metalware.",
+    "color": "Black"
+  },
+  {
+    "title": "CLUTCH",
+    "price": "$950.00",
+    "image": [
+      "https://images.www.fendi.com/images/hf4/h43/8909506150430/7VA433A6K0F0P0N_01_large#product-medium",
+      "https://images.www.fendi.com/images/h74/h3c/8909551403038/7VA433A6K0F0P0N_02_large#product-medium",
+      "https://images.www.fendi.com/images/ha8/he9/8909541113886/7VA433A6K0F0P0N_03_large#product-medium",
+      "https://images.www.fendi.com/images/h3f/h63/8909489733662/7VA433A6K0F0P0N_04_large#product-medium",
+      "https://images.www.fendi.com/images/h48/hd0/8908588482590/7VA433A6K0F0P0N_99_large#product-medium"
+    ],
+    "size": null,
+    "description": "Pochette with zip closure. Flat inside pocket. Made of black and red calfskin. The print reproduces the anagram of the word FENDI, laser-cut in a contrasting color. Internal lining customized with multicolor print. Palladium-finish metalware.",
+    "color": "Multicolor"
+  },
+  {
+    "title": "CLUTCH",
+    "price": "$950.00",
+    "image": [
+      "https://images.www.fendi.com/images/hc4/h9d/8909561724958/7VA433A72KF0P0N_01_large#product-medium",
+      "https://images.www.fendi.com/images/h05/hb2/8909477314590/7VA433A72KF0P0N_02_large#product-medium",
+      "https://images.www.fendi.com/images/hf8/h38/8909455196190/7VA433A72KF0P0N_03_large#product-medium",
+      "https://images.www.fendi.com/images/h9a/hef/8909504380958/7VA433A72KF0P0N_04_large#product-medium",
+      "https://images.www.fendi.com/images/hd7/hda/8908588154910/7VA433A72KF0P0N_99_large#product-medium"
+    ],
+    "size": null,
+    "description": "Pochette with zip closure. Flat inside pocket. Made of smooth black calfskin. The screen-printed appliqués in the shape of Bag Bugs eyes are customized with a reversed F. Palladium-finish metalware.",
+    "color": "Black"
+  },
+  {
+    "title": "WALLET",
+    "price": "$490.00",
+    "image": [
+      "https://images.www.fendi.com/images/h9a/h89/8901800165406/7M0169A72KF0P0N_01_large#product-medium",
+      "https://images.www.fendi.com/images/h54/h4a/8901802197022/7M0169A72KF0P0N_02_large#product-medium",
+      "https://images.www.fendi.com/images/h65/h61/8901805801502/7M0169A72KF0P0N_03_large#product-medium"
+    ],
+    "size": null,
+    "description": "Wallet with eight interior card slots and two compartments for bills. Made of smooth black calfskin. Red leather interior. The screen-printed appliqués in the shape of Bag Bugs eyes are customized with a reversed F.",
+    "color": "Black"
+  },
+  {
+    "title": "BELT",
+    "price": "$490.00",
+    "image": [
+      "https://images.www.fendi.com/images/h50/h5f/8909398736926/7C0397A6L0F0P0N_01_large#product-medium",
+      "https://images.www.fendi.com/images/hee/h93/8909401686046/7C0397A6L0F0P0N_02_large#product-medium",
+      "https://images.www.fendi.com/images/hce/he4/8908583370782/7C0397A6L0F0P0N_99_large#product-medium"
+    ],
+    "size": [
+      "32 In - 80 CM",
+      "34 In - 85 CM",
+      "36 In - 90 CM",
+      "38 In - 95 CM",
+      "40 In - 100 CM",
+      "42 In - 105 CM",
+      "43 In - 110 CM",
+      "43.5 In - 115 CM",
+      "45.5 In - 120 CM"
+    ],
+    "description": "Belt with single loop. Buckle with stud fastening. Made of smooth black calfskin. Enameled metal buckle with Fendi Label motif and palladium finish.",
+    "color": "Black"
   },
   {
     "title": "FENDIFIEND",
@@ -165,9 +283,9 @@
       "https://images.www.fendi.com/images/he3/h42/8917978447902/FOG521V1TF16QI_03_large#product-medium",
       "https://images.www.fendi.com/images/h84/h50/8917978841118/FOG521V1TF16QI_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "FendiFiend sunglasses characterized by their contemporary cat-eye shape. This style is made of metal with a gold finish and features a unique “UFO” construction, a red metallic wire that frames the lenses, creating a retro-futuristic geometric effect. Triangular temples customized with Fendi logo engraving and red temple tips. Adjustable nosepads. Red lenses.",
-    "color": ""
+    "color": "gold and red"
   },
   {
     "title": "T-SHIRT",
@@ -200,9 +318,9 @@
       "https://images.www.fendi.com/images/h04/hb6/8909720879134/FOG5195NLF16QD_03_large#product-medium",
       "https://images.www.fendi.com/images/hcf/h23/8908695011358/FOG5195NLF16QD_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Round-shaped FF sunglasses, with dark gray transparent optyl front and metallic temples with ruthenium finish. The light and sophisticated lines of this style are customized with the iconic FF motif, engraved on the edges of the lenses and on the metal half circle. Complemented by triangular rivets, adjustable nosepads and contrasting tips. Pink lenses.",
-    "color": ""
+    "color": "Dark gray ruthenium"
   },
   {
     "title": "FENDIFIEND",
@@ -213,9 +331,9 @@
       "https://images.www.fendi.com/images/h3a/h12/8909730611230/FOG521V1TF0GME_03_large#product-medium",
       "https://images.www.fendi.com/images/h45/hac/8908626624542/FOG521V1TF0GME_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "FendiFiend sunglasses characterized by their contemporary cat-eye shape. This style is made of black metal and features a unique “UFO” construction, a metallic wire that frames the lenses, creating a retro-futuristic geometric effect. Triangular temples customized with Fendi logo engraving and tone-on-tone temple tips. Adjustable nosepads. Gray lenses.",
-    "color": ""
+    "color": "black"
   },
   {
     "title": "WRIST STRAP",
@@ -224,31 +342,9 @@
       "https://images.www.fendi.com/images/he2/hb1/8901488672798/7AR610A6KRF16BV_01_large#product-medium",
       "https://images.www.fendi.com/images/h2f/he4/8901489688606/7AR610A6KRF16BV_02_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Key ring with clip. Made of brown glazed jacquard fabric. Decorated with macro FF in yellow rubber. Trimmed with leather. Accessori metallici con finitura dorata.",
     "color": "Multicolor"
-  },
-  {
-    "title": "BELT",
-    "price": "$490.00",
-    "image": [
-      "https://images.www.fendi.com/images/h50/h5f/8909398736926/7C0397A6L0F0P0N_01_large#product-medium",
-      "https://images.www.fendi.com/images/hee/h93/8909401686046/7C0397A6L0F0P0N_02_large#product-medium",
-      "https://images.www.fendi.com/images/hce/he4/8908583370782/7C0397A6L0F0P0N_99_large#product-medium"
-    ],
-    "size": [
-      "32 In - 80 CM",
-      "34 In - 85 CM",
-      "36 In - 90 CM",
-      "38 In - 95 CM",
-      "40 In - 100 CM",
-      "42 In - 105 CM",
-      "43 In - 110 CM",
-      "43.5 In - 115 CM",
-      "45.5 In - 120 CM"
-    ],
-    "description": "Belt with single loop. Buckle with stud fastening. Made of smooth black calfskin. Enameled metal buckle with Fendi Label motif and palladium finish.",
-    "color": ""
   },
   {
     "title": "SOCKS",
@@ -263,7 +359,7 @@
       "L"
     ],
     "description": "Short five-toe socks. Made of dark brown nylon with color-block details and contrasting FENDI lettering.",
-    "color": ""
+    "color": "Multicolor"
   },
   {
     "title": "STRAP YOU",
@@ -272,9 +368,9 @@
       "https://images.www.fendi.com/images/h14/h85/8909511458846/8AV079A6KRF08LP_01_large#product-medium",
       "https://images.www.fendi.com/images/h59/h27/8908620333086/8AV079A6KRF08LP_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Long shoulder strap with double clip, to use in combination with any bag with hooks. Made of glazed jacquard fabric with red FF motif. Decorated with macro FF in black rubber. Palladium-finish metalware.",
-    "color": ""
+    "color": "Fabric"
   },
   {
     "title": "KEY RING",
@@ -284,9 +380,9 @@
       "https://images.www.fendi.com/images/h6e/h99/8901491556382/7AR738NDUF0ZRC_02_large#product-medium",
       "https://images.www.fendi.com/images/hfc/ha6/8901491949598/7AR738NDUF0ZRC_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Branded Fendi card deck holder, with snap buttons and clip. Made of yellow Roman leather. Trimmed with “Metal Stitch” hand stitching. Palladium-finish metalware.",
-    "color": ""
+    "color": "Yellow"
   },
   {
     "title": "SHAWL",
@@ -295,7 +391,7 @@
       "https://images.www.fendi.com/images/ha1/h00/8892729425950/FXS323A45CF0R4V_01_large#product-medium",
       "https://images.www.fendi.com/images/h01/hec/8893467918366/FXS323A45CF0R4V_02_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Square shawl finished with hand-frayed hems. Made of blue wool and silk. The jacquard weave creates a pictorial frame and the FF motif in tones of black.",
     "color": "Blue"
   },
@@ -309,7 +405,7 @@
       "https://images.www.fendi.com/images/h5e/h20/8909467287582/7VA446A5K4F14TW_04_large#product-medium",
       "https://images.www.fendi.com/images/h64/h11/8908593496094/7VA446A5K4F14TW_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Small belt bag with zip fastening. Front zipper pocket and internal mesh pocket. Adjustable belt. Made of glazed jacquard fabric with brown FF motif. Decorated with Fendi Stamp appliqué in leather.",
     "color": "Brown"
   },
@@ -319,7 +415,7 @@
     "image": [
       "https://images.www.fendi.com/images/h03/h96/8901480841246/7AP021B09F15I8_01_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Fendi Label key ring with clip and customized ring. Made of palladium-finish metal. Enameled details in black and red.",
     "color": "Black"
   },
@@ -331,7 +427,7 @@
       "https://images.www.fendi.com/images/h6a/h88/8901493882910/7AR743A6KFF164Y_02_large#product-medium",
       "https://images.www.fendi.com/images/hf9/h92/8901493555230/7AR743A6KFF164Y_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Die-shaped charm with zip closure. Leather strap and clip with branded plate. Made of black sheepskin with inlaid red FF motif. Palladium-finish metalware.",
     "color": "Black"
   },
@@ -343,7 +439,7 @@
       "https://images.www.fendi.com/images/h10/ha0/8901496242206/7AR743E21F0W33_02_large#product-medium",
       "https://images.www.fendi.com/images/h9d/had/8901496635422/7AR743E21F0W33_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Die-shaped charm with zip closure. Leather strap and clip with branded plate. Made of white Romano leather with contrasting black FF motif appliqué. Palladium-finish metalware.",
     "color": "White"
   },
@@ -355,7 +451,7 @@
       "https://images.www.fendi.com/images/h5f/h39/8909404340254/7AR742A6KEF03J7_02_large#product-medium",
       "https://images.www.fendi.com/images/h7a/h1b/8908572426270/7AR742A6KEF03J7_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Pom-pom charm with leather strap, clip and customized plate. Made of mink fur with FF and striped motif inlay in black, white and red. Palladium-finish metalware.",
     "color": "Multicolor"
   },
@@ -365,9 +461,9 @@
     "image": [
       "https://images.www.fendi.com/images/hb0/haf/8901639274526/8AV109A6KRF08LP_01_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Short shoulder strap with double clip, to use in combination with any bag with hooks. Made of glazed jacquard fabric with red FF motif. Decorated with macro FF in black rubber. Palladium-finish metalware.",
-    "color": ""
+    "color": "Fabric"
   },
   {
     "title": "FENDI",
@@ -377,9 +473,9 @@
       "https://images.www.fendi.com/images/h37/h18/8901652611102/FOG516V1PF0GME_02_large#product-medium",
       "https://images.www.fendi.com/images/h1e/h6e/8901653069854/FOG516V1PF0GME_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Sturdy and featherlight round-shaped sunglasses made of black acetate. The urban feel of this model is accentuated by the ultra-flat front and the construction of the temples, distinguished by a gold-colored metal core with the iconic FF motif embossing visible on the inner side. Complemented by vertical rivets and laser engraved Fendi logo. Blue lenses.",
-    "color": ""
+    "color": "Black"
   },
   {
     "title": "FENDI",
@@ -389,9 +485,9 @@
       "https://images.www.fendi.com/images/h7b/h18/8901649006622/FOG515V1PF0GME_02_large#product-medium",
       "https://images.www.fendi.com/images/hb8/h23/8901649399838/FOG515V1PF0GME_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Sturdy and extremely light square-shaped sunglasses made of black acetate. The urban feel of this model is accentuated by the ultra-flat front and the construction of the temples, distinguished by a gold-colored metal core with the iconic FF motif embossing visible on the inner side. Complemented by vertical rivets and laser-engraved Fendi logo. Green lenses.",
-    "color": ""
+    "color": "Black"
   },
   {
     "title": "FF",
@@ -402,9 +498,9 @@
       "https://images.www.fendi.com/images/h8b/h10/8909714391070/FOG5205NLF16QD_03_large#product-medium",
       "https://images.www.fendi.com/images/h9d/h3f/8908625575966/FOG5205NLF16QD_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Square-shaped FF sunglasses, with dark gray transparent optyl front and metallic temples with ruthenium finish. The light and sophisticated lines of this style are customized with the iconic FF motif, engraved on the edges of the lenses and on the metal half circle. Complemented by triangular rivets, adjustable nosepads and contrasting tips. Green lenses.",
-    "color": ""
+    "color": "Dark gray ruthenium"
   },
   {
     "title": "FF",
@@ -415,9 +511,9 @@
       "https://images.www.fendi.com/images/h51/h7a/8909710884894/FOG5205NLF16QE_03_large#product-medium",
       "https://images.www.fendi.com/images/h2b/h4d/8908625969182/FOG5205NLF16QE_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Square-shaped FF sunglasses, with transparent optyl front and metallic temples with gold finish. The light and sophisticated lines of this style are customized with the iconic FF motif, engraved on the edges of the lenses and on the metal half circle. Complemented by triangular rivets, adjustable nosepads and contrasting tips. Ivory-gray lenses.",
-    "color": ""
+    "color": "Transparent and gold"
   },
   {
     "title": "FF",
@@ -427,9 +523,9 @@
       "https://images.www.fendi.com/images/haa/hf5/8901667520542/FOG5205NLF16QC_02_large#product-medium",
       "https://images.www.fendi.com/images/hc8/hfc/8901667913758/FOG5205NLF16QC_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Square-shaped FF sunglasses, with gray transparent optyl front and metallic temples with gold finish. The light and sophisticated lines of this style are customized with the iconic FF motif, engraved on the edges of the lenses and on the metal half circle. Complemented by triangular rivets, adjustable nosepads and contrasting tips. Blue lenses.",
-    "color": ""
+    "color": "Gray and gold"
   },
   {
     "title": "BELT",
@@ -450,7 +546,7 @@
       "45.5 In - 120 CM"
     ],
     "description": "Reversible belt with single loop. Metal pin buckle. Made of red calfskin, with FF motif. Black leather interior. Metallic accessories.",
-    "color": ""
+    "color": "Red"
   },
   {
     "title": "BELT",
@@ -471,7 +567,7 @@
       "45.5 In - 120 CM"
     ],
     "description": "Tone-on-tone belt with loop. The stud fastening has a minimal F-shaped design. Made of Romano leather in midnight blue. Palladium-finish metalware.",
-    "color": ""
+    "color": "Blue"
   },
   {
     "title": "DOWN JACKET",
@@ -603,102 +699,6 @@
     "color": "Black"
   },
   {
-    "title": "T-SHIRT",
-    "price": "$550.00",
-    "image": [
-      "https://images.www.fendi.com/images/hc3/hb4/8909770489886/FY0894A6ZGF0QA0_01_large#product-medium",
-      "https://images.www.fendi.com/images/h81/h4e/8909771374622/FY0894A6ZGF0QA0_02_large#product-medium",
-      "https://images.www.fendi.com/images/h70/hd6/8909805486110/FY0894A6ZGF0QA0_03_large#product-medium",
-      "https://images.www.fendi.com/images/hd6/h8e/8908652544030/FY0894A6ZGF0QA0_99_large#product-medium"
-    ],
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL",
-      "XXXL",
-      "XXS"
-    ],
-    "description": "Short-sleeved crew-neck T-shirt. Made with white cotton jersey. Bag Bugs eye shaped appliqués.",
-    "color": "White"
-  },
-  {
-    "title": "SWEATSHIRT",
-    "price": "$770.00",
-    "image": [
-      "https://images.www.fendi.com/images/h81/hcd/8901926748190/FAF535A78LF0GME_01_large#product-medium",
-      "https://images.www.fendi.com/images/h67/hb7/8901896405022/FAF535A78LF0GME_02_large#product-medium",
-      "https://images.www.fendi.com/images/h0f/h5a/8901912854558/FAF535A78LF0GME_03_large#product-medium"
-    ],
-    "size": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL",
-      "XXXL",
-      "XXS"
-    ],
-    "description": "Long-sleeved sweatshirt with crew neck. Made of black cotton jersey. Customized with heat-sealed micro-mesh FF appliqué in white.",
-    "color": "Black"
-  },
-  {
-    "title": "POUCH",
-    "price": "$890.00",
-    "image": [
-      "https://images.www.fendi.com/images/h68/h29/8909433667614/7N0078A6K9F164G_01_large#product-medium",
-      "https://images.www.fendi.com/images/hf7/hb1/8909419675678/7N0078A6K9F164G_02_large#product-medium",
-      "https://images.www.fendi.com/images/h3a/ha8/8909440155678/7N0078A6K9F164G_03_large#product-medium",
-      "https://images.www.fendi.com/images/h41/h4a/8908581404702/7N0078A6K9F164G_99_large#product-medium"
-    ],
-    "size": [],
-    "description": "Slim zippered pouch. Made of black Roman leather. Contrasting inlay with Fashion Show JOKARL print inspired by playing cards. Palladium-finish metalware.",
-    "color": "Black"
-  },
-  {
-    "title": "CLUTCH",
-    "price": "$950.00",
-    "image": [
-      "https://images.www.fendi.com/images/hf4/h43/8909506150430/7VA433A6K0F0P0N_01_large#product-medium",
-      "https://images.www.fendi.com/images/h74/h3c/8909551403038/7VA433A6K0F0P0N_02_large#product-medium",
-      "https://images.www.fendi.com/images/ha8/he9/8909541113886/7VA433A6K0F0P0N_03_large#product-medium",
-      "https://images.www.fendi.com/images/h3f/h63/8909489733662/7VA433A6K0F0P0N_04_large#product-medium",
-      "https://images.www.fendi.com/images/h48/hd0/8908588482590/7VA433A6K0F0P0N_99_large#product-medium"
-    ],
-    "size": [],
-    "description": "Pochette with zip closure. Flat inside pocket. Made of black and red calfskin. The print reproduces the anagram of the word FENDI, laser-cut in a contrasting color. Internal lining customized with multicolor print. Palladium-finish metalware.",
-    "color": "Multicolor"
-  },
-  {
-    "title": "CLUTCH",
-    "price": "$950.00",
-    "image": [
-      "https://images.www.fendi.com/images/hc4/h9d/8909561724958/7VA433A72KF0P0N_01_large#product-medium",
-      "https://images.www.fendi.com/images/h05/hb2/8909477314590/7VA433A72KF0P0N_02_large#product-medium",
-      "https://images.www.fendi.com/images/hf8/h38/8909455196190/7VA433A72KF0P0N_03_large#product-medium",
-      "https://images.www.fendi.com/images/h9a/hef/8909504380958/7VA433A72KF0P0N_04_large#product-medium",
-      "https://images.www.fendi.com/images/hd7/hda/8908588154910/7VA433A72KF0P0N_99_large#product-medium"
-    ],
-    "size": [],
-    "description": "Pochette with zip closure. Flat inside pocket. Made of smooth black calfskin. The screen-printed appliqués in the shape of Bag Bugs eyes are customized with a reversed F. Palladium-finish metalware.",
-    "color": "Black"
-  },
-  {
-    "title": "WALLET",
-    "price": "$490.00",
-    "image": [
-      "https://images.www.fendi.com/images/h9a/h89/8901800165406/7M0169A72KF0P0N_01_large#product-medium",
-      "https://images.www.fendi.com/images/h54/h4a/8901802197022/7M0169A72KF0P0N_02_large#product-medium",
-      "https://images.www.fendi.com/images/h65/h61/8901805801502/7M0169A72KF0P0N_03_large#product-medium"
-    ],
-    "size": [],
-    "description": "Wallet with eight interior card slots and two compartments for bills. Made of smooth black calfskin. Red leather interior. The screen-printed appliqués in the shape of Bag Bugs eyes are customized with a reversed F.",
-    "color": "Black"
-  },
-  {
     "title": "PEEKABOO X-LITE FIT",
     "price": "$3,980.00",
     "image": [
@@ -709,7 +709,7 @@
       "https://images.www.fendi.com/images/h2b/hbc/8909477609502/7VA447A6FWF1645_05_large#product-medium",
       "https://images.www.fendi.com/images/hb5/h4d/8908594151454/7VA447A6FWF1645_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Tote bag distinguished by a rigid panel on the back and a soft front section with turn-lock closure. Briefcase handle and adjustable and detachable shoulder strap. Zipper pocket on the inside. Made of brown Romano leather. The pocket is made of glazed fabric with brown FF motif and customized with a metal plate. Palladium-finish metalware.",
     "color": "Brown"
   },
@@ -724,7 +724,7 @@
       "https://images.www.fendi.com/images/h47/hff/8909509394462/7VA447A6FWF15YZ_05_large#product-medium",
       "https://images.www.fendi.com/images/h72/h75/8908597100574/7VA447A6FWF15YZ_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Tote bag distinguished by a rigid panel on the back and a soft front section with turn-lock closure. Briefcase handle and adjustable and detachable shoulder strap. Zipper pocket on the inside. Made of Romano leather in asphalt gray. The pocket is made of glazed fabric with black FF motif and customized with a metal name plate. Palladium-finish metalware.",
     "color": "Gray"
   },
@@ -738,7 +738,7 @@
       "https://images.www.fendi.com/images/h1a/ha5/8909464338462/7VA4228KLF0GXN_04_large#product-medium",
       "https://images.www.fendi.com/images/h4f/h55/8908586287134/7VA4228KLF0GXN_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Small handbag made with two compartments divided by a stiff partition. Internal zippered pocket. Front hook fastening. Briefcase handle and a long adjustable and detachable shoulder strap. Made of black Roman leather. Embossed appliqués in the shape of Bag Bugs eyes. Palladium-finish metalware.",
     "color": "Black"
   },
@@ -752,7 +752,7 @@
       "https://images.www.fendi.com/images/h38/h44/8909420265502/7M0255A6HZF0GXN_04_large#product-medium",
       "https://images.www.fendi.com/images/hb2/h0d/8908580978718/7M0255A6HZF0GXN_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Large pochette with removable shoulder strap, snap-button fastening. Interior gusseted compartment with eight card slots, passport holder, bill compartment and zippered pocket. Made of black Roman leather. Equipped with external zipper pocket and small pocket in glazed jacquard fabric with FF motif in matching shade, snap-button fastening. Fabric shoulder strap with macro FF. Palladium-finish metalware.",
     "color": "Black"
   },
@@ -975,7 +975,7 @@
       "https://images.www.fendi.com/images/h8d/h94/8901799837726/7M0164A6FOF0GXN_02_large#product-medium",
       "https://images.www.fendi.com/images/hae/h04/8901806456862/7M0164A6FOF0GXN_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Card holder with six slots and flat central pocket. Made of black calf leather. Glazed jacquard fabric insert with black FF motif.",
     "color": "Black"
   },
@@ -988,7 +988,7 @@
       "https://images.www.fendi.com/images/hef/h64/8901826478110/7M0255A6HZF1648_03_large#product-medium",
       "https://images.www.fendi.com/images/h89/h6c/8901834342430/7M0255A6HZF1648_04_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Large pochette with removable shoulder strap, snap-button fastening. Interior gusseted compartment with eight card slots, passport pocket, bill compartment and zippered pocket. Made of red Romano leather. Equipped with external zippered pocket and small pocket in glazed jacquard fabric with contrasting FF motif, snap-button closure. Fabric shoulder strap with macro FF. Palladium-finish metalware.",
     "color": "Black"
   },
@@ -1045,9 +1045,9 @@
       "https://images.www.fendi.com/images/h4c/h89/8901653856286/FOG516V1PF0UPW_02_large#product-medium",
       "https://images.www.fendi.com/images/h85/hde/8901654249502/FOG516V1PF0UPW_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Durable and lightweight round sunglasses made of Havana acetate. The urban feel of this model is accentuated by the ultra-flat front and the construction of the temples, distinguished by a gold-colored metal core with the iconic FF motif embossing visible on the inner side. Complemented by vertical rivets and laser-engraved Fendi logo. Gray lenses.",
-    "color": ""
+    "color": "Havana"
   },
   {
     "title": "BELT BAG",
@@ -1059,7 +1059,7 @@
       "https://images.www.fendi.com/images/h60/h87/8909555826718/7VA446A5K4F051U_04_large#product-medium",
       "https://images.www.fendi.com/images/hfd/hc9/8908596772894/7VA446A5K4F051U_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Small belt bag with zip fastening. Front zipper pocket and internal mesh pocket. Adjustable belt. Made of glazed jacquard fabric with red FF motif. Decorated with Fendi Stamp appliqué in leather.",
     "color": "Red"
   },
@@ -1115,9 +1115,9 @@
       "https://images.www.fendi.com/images/ha2/hf2/8901748817950/FXQ768A7B4F0QA1_01_large#product-medium",
       "https://images.www.fendi.com/images/hc5/h53/8901716705310/FXQ768A7B4F0QA1_02_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Baseball hat with semi-stiff peak. Made of glazed jacquard fabric, with black macro FF motif.",
-    "color": ""
+    "color": "Black"
   },
   {
     "title": "BACKPACK",
@@ -1129,7 +1129,7 @@
       "https://images.www.fendi.com/images/heb/h3e/8909463453726/7VZ045A6K7F0GXN_04_large#product-medium",
       "https://images.www.fendi.com/images/h44/hae/8908602081310/7VZ045A6K7F0GXN_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Wide-design backpack, closure with single buckle. Front pocket with flap and internal pockets. Technical mesh back and adjustable shoulder straps. Made of mesh fabric with black FF motif. Tricolor ribbon details and sporty buckle with diagonal print.",
     "color": "Black"
   },
@@ -1186,7 +1186,7 @@
       "https://images.www.fendi.com/images/hc2/h61/8901802852382/7M0164A6FOF0P0N_02_large#product-medium",
       "https://images.www.fendi.com/images/h59/hcb/8901803835422/7M0164A6FOF0P0N_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Card holder with six slots and flat central pocket. Made of black calf leather. Insert made of glazed jacquard fabric with red FF motif.",
     "color": "Black"
   },
@@ -1200,7 +1200,7 @@
       "https://images.www.fendi.com/images/he4/h2e/8909483081758/7VA434A72KF0P0N_04_large#product-medium",
       "https://images.www.fendi.com/images/hb3/h75/8908694716446/7VA434A72KF0P0N_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Belt bag with zip fastening. Adjustable belt. Made of smooth black calfskin. The screen-printed appliqués in the shape of Bag Bugs eyes are customized with a reversed F. Palladium-finish metalware.",
     "color": "Black"
   },
@@ -1262,7 +1262,7 @@
       "L"
     ],
     "description": "Double-wrap bracelet. Customized press button fastening, adjusts to two different lengths. Made of black calf leather. Decorated with enameled Fendi Label in black and red. Palladium-finish metalware.",
-    "color": ""
+    "color": "Black"
   },
   {
     "title": "BACKPACK",
@@ -1274,7 +1274,7 @@
       "https://images.www.fendi.com/images/h9f/h39/8909501956126/7VZ042A72LF0P0N_04_large#product-medium",
       "https://images.www.fendi.com/images/he9/h95/8908600770590/7VZ042A72LF0P0N_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Large backpack with front pocket. Breathable technical mesh back and adjustable shoulder straps. Zip fastening with double slider and inside pocket. Made of black nylon and leather. The screen-printed appliqués in the shape of Bag Bugs eyes are customized with a reversed F. Palladium-finish metalware.",
     "color": "Black"
   },
@@ -1333,9 +1333,9 @@
       "https://images.www.fendi.com/images/h06/h36/8909719994398/FOG5195NLF16QC_03_large#product-medium",
       "https://images.www.fendi.com/images/hea/h8d/8908623708190/FOG5195NLF16QC_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Round-shaped FF sunglasses, with transparent blue optyl front and metallic temples with gold finish. The light and sophisticated lines of this style are customized with the iconic FF motif, engraved on the edges of the lenses and on the metal half circle. Complemented by triangular rivets, adjustable nosepads and contrasting tips. Blue lenses.",
-    "color": ""
+    "color": "Blue and gold"
   },
   {
     "title": "FLAT POUCH",
@@ -1346,7 +1346,7 @@
       "https://images.www.fendi.com/images/h0d/hba/8901817958430/7M0254A6HZF0GXN_03_large#product-medium",
       "https://images.www.fendi.com/images/h15/h68/8901821890590/7M0254A6HZF0GXN_04_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Mini version pochette with removable shoulder strap, snap button fastening. Interior organized into six card slots, passport holder, bill compartment and coin purse with zip closure. Made of black Roman leather. Equipped with external zip pocket and little pocket in glazed jacquard fabric with matching FF motif and snap button. Fabric shoulder strap with macro FF. Palladium-finish metalware.",
     "color": "Black"
   },
@@ -1403,9 +1403,9 @@
       "https://images.www.fendi.com/images/h81/h60/8909705019422/FOG518V1TF09W8_03_large#product-medium",
       "https://images.www.fendi.com/images/hc2/hf3/8908622856222/FOG518V1TF09W8_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "FendiFiend caravan style sunglasses, made of metal with gold finish. The style is characterised by a “UFO” construction, a yellow metallic wire that frames the lenses, creating a unique geometric effect. Triangular temples customized with engraved Fendi logo and yellow tips. Slender bridge and adjustable nose pads. Gray lenses.",
-    "color": ""
+    "color": "Gold and yellow"
   },
   {
     "title": "BELT BAG",
@@ -1417,7 +1417,7 @@
       "https://images.www.fendi.com/images/h2b/hfa/8909460209694/7VA446A6HYF164H_04_large#product-medium",
       "https://images.www.fendi.com/images/h66/h60/8908597755934/7VA446A6HYF164H_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Small belt bag with zip fastening. Front zipper pocket and internal mesh pocket. Adjustable belt. Made of jacquard fabric with iconic brown Pequin striped motif. Fendi Label appliqué in printed leather with gold lettering. Palladium-finish metalware.",
     "color": "Brown"
   },
@@ -1478,7 +1478,7 @@
       "L"
     ],
     "description": "Short five-toe socks. Made of light brown nylon with color-block details and contrasting FENDI lettering.",
-    "color": ""
+    "color": "Multicolor"
   },
   {
     "title": "SANDALS",
@@ -1525,19 +1525,6 @@
     "color": "Black"
   },
   {
-    "title": "HAT",
-    "price": "$550.00",
-    "image": [
-      "https://images.www.fendi.com/images/h52/h09/8909803651102/FXQ110A782F0PNP_01_large#product-medium",
-      "https://images.www.fendi.com/images/hd1/haf/8909799817246/FXQ110A782F0PNP_02_large#product-medium",
-      "https://images.www.fendi.com/images/h4d/h8b/8909778026526/FXQ110A782F0PNP_03_large#product-medium",
-      "https://images.www.fendi.com/images/hef/h58/8908659621918/FXQ110A782F0PNP_99_large#product-medium"
-    ],
-    "size": [],
-    "description": "Reversible fisherman-style hat. Can be folded into the zippered pouch. Made of fabric with brown FF motif. Pequin lining. Fendi Label patch with gold-colored lettering.",
-    "color": ""
-  },
-  {
     "title": "BACKPACK",
     "price": "$1,290.00",
     "image": [
@@ -1547,7 +1534,7 @@
       "https://images.www.fendi.com/images/hcd/ha7/8909477019678/7VZ045A6KKF164F_04_large#product-medium",
       "https://images.www.fendi.com/images/h32/h58/8908594479134/7VZ045A6KKF164F_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Wide-design backpack, closure with single buckle. Front pocket with flap and internal pockets. Technical mesh back and adjustable shoulder straps. Made of black nylon. Flap and pocket made of glazed fabric with brown FF motif. Decorated with Fendi Stamp appliqué in leather.",
     "color": "Multicolor"
   },
@@ -1607,7 +1594,7 @@
       "https://images.www.fendi.com/images/hc6/hf3/8909460799518/7VA448A6FXF1627_05_large#product-medium",
       "https://images.www.fendi.com/images/he9/h96/8908602736670/7VA448A6FXF1627_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Light, structured handbag, distinguished by a rigid panel on the back and a soft front section with turn-lock closure. Briefcase handle and adjustable and detachable shoulder strap. Zipper pocket on the inside. Made of black Roman leather. The pocket is customized with a metal plate Palladium-finish metalware.",
     "color": "Black"
   },
@@ -1665,9 +1652,9 @@
       "https://images.www.fendi.com/images/hc9/h0e/8901733744670/FXQ110A783F165T_02_large#product-medium",
       "https://images.www.fendi.com/images/hea/h78/8901711134750/FXQ110A783F165T_03_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Reversible fisherman-style hat. Can be folded into the zippered pouch. Made of fabric with striped brown Pequin motif. FF lining. Embroidered Fendi Label patch.",
-    "color": ""
+    "color": "Multicolor"
   },
   {
     "title": "MON TRESOR",
@@ -1679,7 +1666,7 @@
       "https://images.www.fendi.com/images/hfd/h4d/8909501366302/7VA451A6K5F164Q_04_large#product-medium",
       "https://images.www.fendi.com/images/hda/h72/8908599722014/7VA451A6K5F164Q_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Sports bag with drawstring closure. Two pockets with external zippers and structured compartment on the bottom. The bag is equipped with removable handle and shoulder strap. Made of Pequin striped fabric in brown. Trimmed with sport-inspired reflector details. The tricolor strap is branded with a Fendi Label shoulder piece printed in gold. Palladium-finish metalware.",
     "color": "Multicolor"
   },
@@ -1761,7 +1748,7 @@
       "https://images.www.fendi.com/images/hc9/h9f/8909532987422/7VA447A6FXF1627_05_large#product-medium",
       "https://images.www.fendi.com/images/h85/h04/8908593823774/7VA447A6FXF1627_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Slim tote bag distinguished by a rigid panel on the back and a soft front section with turn-lock fastener. Briefcase handle and adjustable and detachable shoulder strap. Zipper pocket on the inside. Made of black Roman leather. The pocket is customized with a metal plate Palladium-finish metalware.",
     "color": "Black"
   },
@@ -1774,9 +1761,9 @@
       "https://images.www.fendi.com/images/h13/h83/8917976842270/FOG521V1TF16QH_03_large#product-medium",
       "https://images.www.fendi.com/images/h31/h2e/8917977202718/FOG521V1TF16QH_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "FendiFiend sunglasses characterized by their contemporary cat-eye shape. This style is made of metal with a gold finish and features a unique “UFO” construction, a brown metallic wire that frames the lenses, creating a retro-futuristic geometric effect. Triangular temples customized with engraved Fendi logo and brown temple tips. Adjustable nosepads. Brown lenses.",
-    "color": ""
+    "color": "gold and brown"
   },
   {
     "title": "PEEKABOO REGULAR",
@@ -1788,7 +1775,7 @@
       "https://images.www.fendi.com/images/h9f/h8d/8909540524062/7VA388A6FJF0KUR_04_large#product-medium",
       "https://images.www.fendi.com/images/hc6/h85/8908584026142/7VA388A6FJF0KUR_99_large#product-medium"
     ],
-    "size": [],
+    "size": null,
     "description": "Handbag made with two compartments divided by a stiff partition. Zippered pocket and section for hi-tech devices. Front hook fastening. Briefcase handle and an adjustable, detachable shoulder strap. Made of black Roman leather. Decorated with lenticular Bag Bugs eyes that alternate between the striped Pequin motif and the brown FF pattern. Accessori metallici con finitura dorata. Silver Selleria plaque engraved with the serial numbers.",
     "color": "Black"
   },

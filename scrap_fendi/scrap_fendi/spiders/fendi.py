@@ -68,3 +68,19 @@ class FendiSpider(scrapy.Spider):
             '//meta[@itemprop="color"]/@content').extract_first()
         if color:
             return color
+        else:
+            description = response.xpath(
+                '//meta[@property="og:description"]/@content').extract_first().split()
+            print(description)
+            if description and 'sunglasses' not in description:
+                if description[1] == 'and':
+                    color = ' '.join(description[:3])
+                else:
+                    color = description[0]
+            elif 'and' in description:
+                color = ' '.join(description[-4:-1])
+            elif 'ruthenium' in description:
+                color = ' '.join(description[:-1])
+            else:
+                color = description[-2]
+        return color
