@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+
+{%block content%}
+	
+	{%for item  in item_list%}
+		<p><img src="{{item.image}}"></p>
+		<h2>{{item.title}}</h2>
+		<h3>Описание:</h3>
+		<p>{{item.description}}</p>
+		<p>Цена:{{item.price}}</p>
+		<p>
+			<select>
+				<option disabled>Выберите размер</option>
+				{%for s in size%}	    		
+	    			<option value="{{s}}">{{s}}</option>
+	    		{%endfor%}
+	   	    </select>
+	   	</p>
+	   	<p>Цвет: 
+	   		{%for c in color%}
+	   			{{c}}
+	   		{%endfor%}
+	   	</p>
+	{%endfor%}
+{%endblock%}

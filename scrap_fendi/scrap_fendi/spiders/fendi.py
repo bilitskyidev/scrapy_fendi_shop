@@ -16,14 +16,15 @@ class FendiSpider(RedisSpider):
         },
     }
 
+
     # def make_request_from_url(self, url):
     #     print('************************************')
     #     print(url)
     #     return scrapy.Request(self.urls_scrapy[0])
 
-    def make_request_from_data(self, data):
-        url = self.urls_scrapy[0]
-        return scrapy.Request(url)
+    #def make_request_from_data(self, data):
+    #    url = self.urls_scrapy[0]
+    #    return scrapy.Request(url)
 
     def parse(self, response):
         posts_link = response.xpath(

@@ -8,11 +8,11 @@
 }
 
 .block {
-    width: 700px;
-    height: 700px;
+    width: 1000px;
+    height: 1000px;
     position: absolute;
     top: 25%;
-    left: 50%;
+    left: 25%;
     margin: -125px 0 0 -125px;
     
     img {

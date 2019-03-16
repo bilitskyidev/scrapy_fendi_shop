@@ -8,6 +8,13 @@
 #     https://doc.scrapy.org/en/latest/topics/settings.html
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
+import os
+import sys
+import django
+
+sys.path.append(os.path.join(BASE_DIR, 'fendi_shop'))
+os.environ['DJANGO_SETTINGS_MODULE'] = 'fendi_shop.settings'
+django.setup()
 
 BOT_NAME = 'scrap_fendi'
 

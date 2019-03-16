@@ -3,7 +3,10 @@
 	
 	<form action="{% url 'fendi:index' %}" method="POST">
 		{%csrf_token%}
+		<input type="text" name="url_scrapy" size="100">
    		<button type="submit">Run Spider</button>
-		
 	</form>
+	{%if message%}
+		<p>{{message}}</p>
+	{%endif%}
 {%endblock%}
