@@ -1,13 +1,19 @@
 import scrapy
 from ..items import ScrapFendiItem
+from scrapy_redis.spiders import RedisSpider 
 
 
-class FendiSpider(scrapy.Spider):
+class FendiSpider(RedisSpider):
     name = "fendi"
     start_urls = [
         'https://www.fendi.com/us/man/new-arrivals?q=:relevance&page=1&preload=true']
     custom_settings = {
         'DOWNLOAD_DELAY': 2,
+        'SCHEDULER':"scrapy_redis.scheduler.Scheduler",
+        'DUPEFILTER_CLASS':"scrapy_redis.dupefilter.RFPDupeFilter",
+        'ITEM_PIPELINES':{
+            'scrapy_redis.pipelines.RedisPipeline': 300
+            },
     }
 
     def parse(self, response):
