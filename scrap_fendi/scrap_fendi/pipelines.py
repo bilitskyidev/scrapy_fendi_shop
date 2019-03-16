@@ -7,12 +7,7 @@
 
 
 class ScrapFendiPipeline(object):
-	
-	def __init__(self):
-		self.item_list = []
     
     def process_item(self, item, spider):
-        self.item_list.append(item)
-    	if len(self.item_list) % 10 == 0:
-    		return self.item_list
+    	return item
     		

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{%block content%}
+	
+	<form action="{% url 'fendi:index' %}" method="POST">
+		{%csrf_token%}
+   		<button type="submit">Run Spider</button>
+		
+	</form>
+{%endblock%}

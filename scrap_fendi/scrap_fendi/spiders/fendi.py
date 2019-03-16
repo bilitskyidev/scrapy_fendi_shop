@@ -1,25 +1,34 @@
 import scrapy
 from ..items import ScrapFendiItem
-from scrapy_redis.spiders import RedisSpider 
+from scrapy_redis.spiders import RedisSpider
 
 
 class FendiSpider(RedisSpider):
     name = "fendi"
-    start_urls = [
+    urls_scrapy = [
         'https://www.fendi.com/us/man/new-arrivals?q=:relevance&page=1&preload=true']
     custom_settings = {
         'DOWNLOAD_DELAY': 2,
-        'SCHEDULER':"scrapy_redis.scheduler.Scheduler",
-        'DUPEFILTER_CLASS':"scrapy_redis.dupefilter.RFPDupeFilter",
-        'ITEM_PIPELINES':{
+        'SCHEDULER': "scrapy_redis.scheduler.Scheduler",
+        'DUPEFILTER_CLASS': "scrapy_redis.dupefilter.RFPDupeFilter",
+        'ITEM_PIPELINES': {
             'scrapy_redis.pipelines.RedisPipeline': 300
-            },
+        },
     }
+
+    # def make_request_from_url(self, url):
+    #     print('************************************')
+    #     print(url)
+    #     return scrapy.Request(self.urls_scrapy[0])
+
+    def make_request_from_data(self, data):
+        url = self.urls_scrapy[0]
+        return scrapy.Request(url)
 
     def parse(self, response):
         posts_link = response.xpath(
             "//div[contains(@class, 'inner')]/figure/a/@href").extract()
-        for i in posts_link:
+        for i in posts_link[:20]:
             yield scrapy.Request('https://www.fendi.com{}'.format(i), callback=self.parse_post)
 
     def parse_post(self, response):
@@ -78,13 +87,13 @@ class FendiSpider(RedisSpider):
                 '//meta[@property="og:description"]/@content').extract_first().split()
             if description and 'sunglasses' not in description:
                 if description[1] == 'and':
-                    color = ' '.join(description[:3])
+                    color = description[0:3:2]
                 else:
                     color = description[0]
             elif 'and' in description:
-                color = ' '.join(description[-4:-1])
+                color = description[-4:-1:2]
             elif 'ruthenium' in description:
                 color = ' '.join(description[:-1])
             else:
                 color = description[-2]
-        return color.capitalize()
+            return color
