@@ -4,35 +4,34 @@ from django.db import models
 
 
 class Image(models.Model):
-    image_url = models.CharField(max_length=200)
+    name = models.CharField(max_length=200)
 
     def __str__(self):
-        return self.image_url
+        return self.name
 
 
 class Size(models.Model):
-    size_name = models.CharField(max_length=120)
+    name = models.CharField(max_length=120)
 
     def __str__(self):
-        return self.size_name
+        return self.name
 
 
 class Color(models.Model):
-    color_name = models.CharField(max_length=120)
+    name = models.CharField(max_length=120)
 
     def __str__(self):
-        return self.color_name
+        return self.name
 
 
 class ItemShop(models.Model):
 
     title = models.CharField(max_length=120)
     description = models.TextField()
-    size = models.ManyToManyField(
-        Size, null=True, blank=True)
-    image = models.ManyToManyField(Image, null=True, blank=True)
+    size = models.ManyToManyField(Size)
+    image = models.ManyToManyField(Image)
     price = models.CharField(max_length=50)
-    color = models.ManyToManyField(Color, null=True, blank=True)
+    color = models.ManyToManyField(Color)
 
     def __str__(self):
         return '{} {}'.format(self.title, self.price)

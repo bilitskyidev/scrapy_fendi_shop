@@ -12,17 +12,17 @@ class FendiSpider(RedisSpider):
         'SCHEDULER': "scrapy_redis.scheduler.Scheduler",
         'DUPEFILTER_CLASS': "scrapy_redis.dupefilter.RFPDupeFilter",
         'ITEM_PIPELINES': {
-            'scrapy_redis.pipelines.RedisPipeline': 300
+            'scrap_fendi.pipelines.ScrapFendiPipeline': 300,
+            'scrapy_redis.pipelines.RedisPipeline': 300,
         },
     }
-
 
     # def make_request_from_url(self, url):
     #     print('************************************')
     #     print(url)
     #     return scrapy.Request(self.urls_scrapy[0])
 
-    #def make_request_from_data(self, data):
+    # def make_request_from_data(self, data):
     #    url = self.urls_scrapy[0]
     #    return scrapy.Request(url)
 
@@ -82,7 +82,7 @@ class FendiSpider(RedisSpider):
         color = response.xpath(
             '//meta[@itemprop="color"]/@content').extract_first()
         if color:
-            return color
+            return [color, ]
         else:
             description = response.xpath(
                 '//meta[@property="og:description"]/@content').extract_first().split()
@@ -90,11 +90,11 @@ class FendiSpider(RedisSpider):
                 if description[1] == 'and':
                     color = description[0:3:2]
                 else:
-                    color = description[0]
+                    color = [description[0], ]
             elif 'and' in description:
                 color = description[-4:-1:2]
             elif 'ruthenium' in description:
-                color = ' '.join(description[:-1])
+                color = [' '.join(description[:-1]), ]
             else:
-                color = description[-2]
+                color = [description[-2], ]
             return color

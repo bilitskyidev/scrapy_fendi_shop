@@ -12,7 +12,7 @@ import os
 import sys
 import django
 
-sys.path.append(os.path.join(BASE_DIR, 'fendi_shop'))
+sys.path.append(os.path.dirname(os.path.abspath('.')))
 os.environ['DJANGO_SETTINGS_MODULE'] = 'fendi_shop.settings'
 django.setup()
 
