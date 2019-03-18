@@ -2,25 +2,36 @@
 
 
 {%block content%}
-	
+	{%if item_list%}
 	{%for item  in item_list%}
-		<p><img src="{{item.image}}"></p>
+		<p><img src="{{item.image.first}}" alt="{{item.title}}" height='200' width="200" align="left"></p>
 		<h2>{{item.title}}</h2>
-		<h3>Описание:</h3>
+		<h3>Description:</h3>
 		<p>{{item.description}}</p>
-		<p>Цена:{{item.price}}</p>
+		<p>Price:{{item.price}}  
+		   Color: 
+	   		{%for c in item.color.all%}
+	   			{{c.name}}
+	   		{%endfor%}
+		</p>
+		{%if item.size.all%}
 		<p>
 			<select>
-				<option disabled>Выберите размер</option>
-				{%for s in size%}	    		
-	    			<option value="{{s}}">{{s}}</option>
+				<option disabled>Size:</option>
+				{%for s in item.size.all%}	    		
+	    			<option value="{{s.name}}">{{s.name}}</option>
 	    		{%endfor%}
 	   	    </select>
 	   	</p>
-	   	<p>Цвет: 
-	   		{%for c in color%}
-	   			{{c}}
-	   		{%endfor%}
+	   	{%endif%}
+	   	<p>
 	   	</p>
+	   	<br>
+	   	<hr align="left">
 	{%endfor%}
+	{%else%}
+	<p>
+		Scraping not finished, please wait a few minutes and reload this page
+	</p>
+	{%endif%}
 {%endblock%}

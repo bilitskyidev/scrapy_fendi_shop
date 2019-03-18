@@ -1,4 +1,3 @@
-import subprocess
 import redis
 from django.http import HttpResponse
 from django.shortcuts import render
@@ -19,7 +18,6 @@ class StartView(View):
     def post(self, request, *args, **kwargs):
         url = self.request.POST.get('url_scrapy')
         self.r.lpush('fendi:start_urls', url)
-        #subprocess.call(['redis-cli', 'lpush', 'fendi:start_urls', url])
         context = {'message': 'Please wait scraping process is running'}
         return render(self.request, self.template_name, context)
 
@@ -31,5 +29,5 @@ class ItemShopListView(ListView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['item_list'] = ItemShop.objects.all()
-        return context  
+        context['item_list'] = ItemShop.objects.filter(status=True)
+        return context

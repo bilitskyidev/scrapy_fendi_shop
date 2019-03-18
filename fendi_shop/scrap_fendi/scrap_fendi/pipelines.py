@@ -5,12 +5,11 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 from fendi.tasks import add_scrap_item
-from scrapy.signals import spider_closed
+from scrapy import signals
 
 
 class ScrapFendiPipeline(object):
     item_list = []
-
 
     def process_item(self, item, spider):
         self.item_list.append(item)
@@ -19,6 +18,15 @@ class ScrapFendiPipeline(object):
             self.item_list = []
         return item
 
-    def spider_closed(self, spider, reason):
-        add_scrap_item(self.item_list, end=True)
-        return 'Finish scraping'
+    @classmethod
+    def from_crawler(cls, crawler, *args, **kwargs):
+        pipeline = cls()
+        crawler.signals.connect(pipeline.spider_idle,
+                                signal=signals.spider_idle)
+        return pipeline
+
+    def spider_idle(self):
+        if len(self.item_list) > 0:
+            add_scrap_item(self.item_list, end=True)
+            print('Sending last {} items'.format(len(self.item_list)))
+            self.item_list = []

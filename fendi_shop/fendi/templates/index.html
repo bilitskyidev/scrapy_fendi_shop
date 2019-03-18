@@ -1,12 +1,14 @@
 {% extends "base.html" %}
 {%block content%}
-	
+	{%if not message%}
 	<form action="{% url 'fendi:index' %}" method="POST">
 		{%csrf_token%}
 		<input type="text" name="url_scrapy" size="100">
    		<button type="submit">Run Spider</button>
 	</form>
+	{%endif%}
 	{%if message%}
 		<p>{{message}}</p>
+		<a href="{%url 'fendi:shop_list' %}"><button>Item List</button></a>
 	{%endif%}
 {%endblock%}

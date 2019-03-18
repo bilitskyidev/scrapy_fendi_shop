@@ -5,6 +5,7 @@ from scrapy_redis.spiders import RedisSpider
 
 class FendiSpider(RedisSpider):
     name = "fendi"
+    posts_link = []
     urls_scrapy = [
         'https://www.fendi.com/us/man/new-arrivals?q=:relevance&page=1&preload=true']
     custom_settings = {
@@ -17,20 +18,12 @@ class FendiSpider(RedisSpider):
         },
     }
 
-    # def make_request_from_url(self, url):
-    #     print('************************************')
-    #     print(url)
-    #     return scrapy.Request(self.urls_scrapy[0])
-
-    # def make_request_from_data(self, data):
-    #    url = self.urls_scrapy[0]
-    #    return scrapy.Request(url)
-
     def parse(self, response):
-        posts_link = response.xpath(
+        self.posts_link = response.xpath(
             "//div[contains(@class, 'inner')]/figure/a/@href").extract()
-        for i in posts_link[:20]:
-            yield scrapy.Request('https://www.fendi.com{}'.format(i), callback=self.parse_post)
+        for i in self.posts_link:
+            yield scrapy.Request('https://www.fendi.com{}'.format(i),
+                                 callback=self.parse_post)
 
     def parse_post(self, response):
         fields_item = ScrapFendiItem()
