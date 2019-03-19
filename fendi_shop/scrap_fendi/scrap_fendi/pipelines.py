@@ -12,8 +12,8 @@ class ScrapFendiPipeline(object):
     item_list = []
 
     def process_item(self, item, spider):
-        self.item_list.append(item)
-        if len(self.item_list) == 10:
+        self.item_list.append(dict(item))
+        if len(self.item_list) == 20:
             add_scrap_item.delay(self.item_list)
             self.item_list = []
         return item
