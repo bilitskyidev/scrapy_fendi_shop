@@ -14,7 +14,7 @@ class ScrapFendiPipeline(object):
     def process_item(self, item, spider):
         self.item_list.append(item)
         if len(self.item_list) == 10:
-            add_scrap_item(self.item_list)
+            add_scrap_item.delay(self.item_list)
             self.item_list = []
         return item
 
@@ -27,6 +27,6 @@ class ScrapFendiPipeline(object):
 
     def spider_idle(self):
         if len(self.item_list) > 0:
-            add_scrap_item(self.item_list, end=True)
+            add_scrap_item.delay(self.item_list, end=True)
             print('Sending last {} items'.format(len(self.item_list)))
             self.item_list = []
