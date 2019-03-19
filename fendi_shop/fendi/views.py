@@ -24,10 +24,8 @@ class StartView(View):
 
 class ItemShopListView(ListView):
 
-    model = ItemShop
     template_name = 'shop.html'
+    queryset = ItemShop.objects.filter(status=True)
+    context_object_name = 'item_list'
+    paginate_by = 10
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['item_list'] = ItemShop.objects.filter(status=True)
-        return context

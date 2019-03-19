@@ -3,6 +3,22 @@
 
 {%block content%}
 	{%if item_list%}
+		{% if is_paginated %}
+        <div class="pagination" align="center">
+            <span class="page-links">
+                {% if page_obj.has_previous %}
+                    <a href="/shop_list?page={{ page_obj.previous_page_number }}">Previous</a>
+                {% endif %}
+                <span class="page-current">
+                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                </span>
+                {% if page_obj.has_next %}
+                    <a href="/shop_list?page={{ page_obj.next_page_number }}">Next</a>
+                {% endif %}
+            </span>
+        </div>
+    {% endif %}
+    <br><br>
 	{%for item  in item_list%}
 		<p><img src="{{item.image.first}}" alt="{{item.title}}" height='200' width="200" align="left"></p>
 		<h2>{{item.title}}</h2>
@@ -29,6 +45,24 @@
 	   	<br>
 	   	<hr align="left">
 	{%endfor%}
+	{% if is_paginated %}
+        <div class="pagination" align='center'>
+            <span class="page-links">
+                {% if page_obj.has_previous %}
+                    <a href="/shop_list?page={{ page_obj.previous_page_number }}">Previous</a>
+                {% endif %}
+                <span class="page-current">
+                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                </span>
+                {% if page_obj.has_next %}
+                    <a href="/shop_list?page={{ page_obj.next_page_number }}">Next</a>
+                {% endif %}
+            </span>
+        </div>
+    {% endif %}
+    <br>
+    <br>
+    <br>
 	{%else%}
 	<p>
 		Scraping not finished, please wait a few minutes and reload this page
