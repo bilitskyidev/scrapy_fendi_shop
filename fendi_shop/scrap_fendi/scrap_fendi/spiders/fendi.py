@@ -23,7 +23,7 @@ class FendiSpider(RedisSpider):
             "//div[contains(@class, 'inner')]/figure/a/@href").extract()
         for i in self.posts_link:
             yield scrapy.Request('https://www.fendi.com{}'.format(i),
-                                 callback=self.parse_post)
+                                 callback=self.parse_post, dont_filter=True)
 
     def parse_post(self, response):
         fields_item = ScrapFendiItem()
