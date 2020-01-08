@@ -1,7 +1,7 @@
 <h1 align=center>scrapy_homework</h1>
 <h3 align=center>First step</h3>
 <b>Download project:</b>
-<p>git clone https://github.com/HabibiDev/scrapy_homework.git</p>
+<p>git clone https://github.com/bilitskyidev/scrapy_fendi_shop.git</p>
 <b>Create and activation virtualenv:</b>
 <p>cd scrapy_homework</p>
 <p>python3 -m venv env</p>
