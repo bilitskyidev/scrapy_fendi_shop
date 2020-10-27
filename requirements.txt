@@ -13,7 +13,7 @@ cffi==1.12.2
 channels==2.1.7
 channels-redis==2.3.3
 constantly==15.1.0
-cryptography==2.5
+cryptography==3.2
 cssselect==1.0.3
 daphne==2.2.5
 decorator==4.3.2
